@@ -8,11 +8,11 @@ ul{
 .rangi{
     width: 100%;
     background-color: #04D4F0;
-    color: #fff;
+    /* color: #fff; */
 }
 a{
     text-decoration: none;
-    /* color: black; */
+    color: black;
 
 }
 li{
@@ -38,3 +38,8 @@ li{
     font-family: verdana;
     font-size: 18px;
     color: black;
+}
+.map {
+    background-color: black;
+    color: white;
+}
