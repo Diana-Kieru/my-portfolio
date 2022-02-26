@@ -1,3 +1,9 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Shizuru&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* color: aliceblue; */
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -42,4 +48,41 @@ li{
 .map {
     background-color: black;
     color: white;
+}
+.ground{
+    background-image: url(https://mcdn.wallpapersafari.com/medium/89/47/ZpKTcG.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+/* .ground::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(27, 27, 27, 0.6);
+} */
+.sijui {
+    z-index: 1;
+    color: aliceblue;
+    font-family: Glegoo;
+    font-size: 30px; 
+} 
+.Maelezo p {
+    color: blue;
+    font-family: Glegoo;
+    font-size: 80px;        
+}
+.Maelezo{
+    justify-content: center;
+}
+.Kiongos i{
+    font-size: 100px;
+    color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    z-index: 1;
 }
